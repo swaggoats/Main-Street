@@ -1,0 +1,130 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	min-width:960px;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Layout */
+html {height:100%}
+
+body {
+background:#bcb8ad url(http://static.tumblr.com/ix0wvte/tTjlofbgm/background.jpg) repeat;}
+
+#sidebar {
+height:100%;
+background:#24231e url(http://shawnblanc.net/graphics/background.jpg) repeat;
+position:fixed;
+left:0px;
+top:0px;
+width:200px;
+-moz-box-shadow: 0 0 5px 5px #888;
+-webkit-box-shadow: 0 0 5px 5px#888;
+box-shadow: 0 0 5px 5px #888;
+padding-left:20px;
+ }
+
+#wrap {
+margin-left:230px;
+width:360px; }
+
+.space {
+margin-top:20px;
+border-bottom:#fff solid 1px;
+width:80px; }
+/* Style */
+
+a {
+text-decoration:none;
+color:#000; }
+
+#sidebar, #sidebar a {
+color:#fff; }
+
+h1 {
+font-size:40px;
+margin-top:10px; }
+
+h2 {
+font-size:22px;
+border-bottom:#24231e solid 2px;
+margin:20px 0 2px 0;
+line-height:27px; }
+
+#sidebar a:hover, #sidebar a:active {
+color:#666; }
+
+#description {
+text-align:justify;
+width:180px;
+color:#BEBEBE;
+font-size:13px;
+line-height:18px; }
+
+.links {
+font-size:20px;
+text-align:justify;
+width:80px;
+margin-top:5px;
+border-bottom:#fff solid 1px;
+padding-bottom:8px;
+padding-top:4px; }
+
+.links a:hover, .links a:active {
+font-size:21px;
+width:80px;
+background:#fff;
+color:#24231e; }
+
+#wrap {
+font-family:Georgia, 'Times New Roman', serif;
+width:760px; }
+
+.post {
+font-size:16px;
+line-height:24px;
+width:705px;
+margin:0 auto; }
+
+.meta {
+font-size:10px;
+color:#333333; }
