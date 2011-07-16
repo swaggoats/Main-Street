@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>jeff martin</title>
+
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:300|News+Cycle&v2' rel='stylesheet' type='text/css' />
+
+<style type='text/css'>
+body {
+	font-family: 'News Cycle', sans-serif; }
+h1 {
+	font-family: 'Lato', sans-serif; }
+</style>
+</head>
+
+
+<body>
+<div id="sidebar">
+	<a href="/"><h1>jeff martin</h1></a>
+	<div id="portrait"><img scr="images/me.jpg"/></div>
+	<div id="description">I'm an average, male internet user that's interested in science, technology, as well as politics. This blog is a changing record of my opinions and ideas regarding these and other, miscellaneous topics.</div>
+	<div class="space"></div>	
+	<div class="links"><a href="/about">About Me</a></div>
+	<div class="links"><a href="/googleplus">Google+</a></div>
+	<div class="links"><a href="mailto:ephemeralcompounds@gmail.com">Email</a></div>
+</div>
+<div id="wrap">
+{block:Posts}
+	{block:Text}<div class="post">
+		{block:Title}<h2>{Title}</h2>{/block:Title}
+			<div class="meta">By Jeff Martin &middot; Posted on April 20th, 2087 &middot; 666 Notes</div>
+			{Body}
+	</div>{/block:Text}
+{/block:Posts}
+</div>
+</body>
+
+</html>
